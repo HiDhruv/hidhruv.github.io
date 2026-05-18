@@ -1720,5 +1720,30 @@ document.querySelectorAll('.about-statement').forEach(el => {
   data-owner="Dhruv Rastogi"
   data-bot-name="Dhruv's AI"
 ></script>
+  <style>
+  #portfolio-chat-widget .pcw-panel {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-height: calc(100vh - 128px) !important;
+  }
+
+  #portfolio-chat-widget .pcw-messages {
+    min-height: 220px !important;
+    height: min(390px, 54vh) !important;
+    padding: 14px !important;
+  }
+
+  #portfolio-chat-widget .pcw-message {
+    width: fit-content !important;
+    max-width: min(86%, 300px) !important;
+    overflow-wrap: break-word !important;
+  }
+
+  #portfolio-chat-widget .pcw-composer {
+    margin: 0 !important;
+    padding: 10px !important;
+  }
+</style>
 </body>
 </html>
